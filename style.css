@@ -1,18 +1,27 @@
-
-.heading
-{
-font-size: 23px;
-width: 100%;
-margin: 0px;
+.footer{
+    background-color: grey;
+    text-align: center;
+    color: whitesmoke;
+    bottom:0 ;
+    position: fixed;
+    width: 100%;
+    line-height: 3;
 }
-
-#status, #number_of_objects, #start_model   
-{
-font-size: 18px;
+#AI_video{
+    background-color: yellow;
+    text-align: top;
+    margin-top: 0;
 }
-
+#Start,#Status,#number_object_detected{
+    font-size: 18px;
+}
 canvas{
-    box-shadow: 10px 10px 10px grey;
-    border-radius: 10px ;
-    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white ;
+
+}
+body{
+    background-size: cover;
 }
